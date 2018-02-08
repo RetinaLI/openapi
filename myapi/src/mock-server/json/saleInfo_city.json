@@ -1,0 +1,137 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "map": {},
+    "mapList": [
+        {
+            "salesCount": 2330,
+            "province": "河北省"
+        },
+        {
+            "salesCount": 2124,
+            "province": "山东省"
+        },
+        {
+            "salesCount": 1891,
+            "province": "河南省"
+        },
+        {
+            "salesCount": 1369,
+            "province": "安徽省"
+        },
+        {
+            "salesCount": 1341,
+            "province": "北京市"
+        },
+        {
+            "salesCount": 1242,
+            "province": "山西省"
+        },
+        {
+            "salesCount": 1008,
+            "province": "江苏省"
+        },
+        {
+            "salesCount": 916,
+            "province": "黑龙江省"
+        },
+        {
+            "salesCount": 554,
+            "province": "江西省"
+        },
+        {
+            "salesCount": 548,
+            "province": "广东省"
+        },
+        {
+            "salesCount": 464,
+            "province": "四川省"
+        },
+        {
+            "salesCount": 448,
+            "province": "辽宁省"
+        },
+        {
+            "salesCount": 438,
+            "province": "新疆维吾尔自治区"
+        },
+        {
+            "salesCount": 389,
+            "province": "陕西省"
+        },
+        {
+            "salesCount": 300,
+            "province": "上海市"
+        },
+        {
+            "salesCount": 287,
+            "province": "浙江省"
+        },
+        {
+            "salesCount": 275,
+            "province": "内蒙古自治区"
+        },
+        {
+            "salesCount": 249,
+            "province": "重庆市"
+        },
+        {
+            "salesCount": 187,
+            "province": "天津市"
+        },
+        {
+            "salesCount": 181,
+            "province": "云南省"
+        },
+        {
+            "salesCount": 171,
+            "province": "福建省"
+        },
+        {
+            "salesCount": 142,
+            "province": "湖北省"
+        },
+        {
+            "salesCount": 129,
+            "province": "宁夏回族自治区"
+        },
+        {
+            "salesCount": 87,
+            "province": "贵州省"
+        },
+        {
+            "salesCount": 85,
+            "province": "吉林省"
+        },
+        {
+            "salesCount": 80,
+            "province": "湖南省"
+        },
+        {
+            "salesCount": 72,
+            "province": "甘肃省"
+        },
+        {
+            "salesCount": 37,
+            "province": "海南省"
+        },
+        {
+            "salesCount": 34,
+            "province": "广西壮族自治区"
+        },
+        {
+            "salesCount": 27,
+            "province": "青海省"
+        },
+        {
+            "salesCount": 1,
+            "province": "西藏自治区"
+        }
+    ],
+    "resultMap": {},
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

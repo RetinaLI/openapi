@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=zh-CN xml:lang=zh-CN>
+<head>
+  <% include _head_meta %>
+  <link rel="stylesheet" href="/assets/plugins/bootstrap4/bootstrap.css">
+  <script>
+    if (!document.location.origin)
+      document.location.origin = document.location.protocol + "//" + document.location.hostname + (document.location.port ? ":" + document.location.port : "");
+  </script>
+  <link rel="stylesheet/less" href="/assets/css/common.less">
+
+  <% if(pageInfo.link) { %>
+    <link rel="stylesheet/less" href="<%=pageInfo.link%>">
+  <% } %>
+  <script src = "/assets/js/less.min.js"></script>
+
+</head>
+
+<body class = 'd-flex flex-column'>
+  <% include _top_nav %>
+  <%-body %>
+  <% include _footer %>
+  <script src = "/assets/js/jquery-3.3.1.js"></script>
+  <script src = "/assets/plugins/bootstrap4/popper.js"></script>
+  <script src = "/assets/plugins/bootstrap4/bootstrap.js"></script>
+  <% if(pageInfo.script) { %>
+    <script src = "<%=pageInfo.script%>"></script>
+  <% } %>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<div class='picker-wrap'>
+  <div>
+    <a class='left-angle angle waves-effect waves-block' [class.hide]="!showAngle" [class.disable] = "!enablePrevBtn" (click)="jumpTo('prev')">
+      <i class='fa fa-angle-left'></i>
+    </a>
+    <div class='label-wrap waves-effect waves-block'>
+      <a class='date-label'>{{viewValue}}</a>
+      <input type='text' [(ngModel)]="value" [id] = "id">
+    </div>
+    <a class='right-angle angle waves-effect waves-block' [class.hide]="!showAngle" [class.disable] = "!enableNextBtn" (click)="jumpTo('next')">
+      <i class='fa fa-angle-right'></i>
+    </a>
+  </div>
+</div>

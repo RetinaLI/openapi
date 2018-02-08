@@ -1,0 +1,7 @@
+<div class = 'server-summary-list clearfix'>
+  <app-summary-board label = "所有车辆" label-color = "#54a9de" icon = '' [value]="allCarNum" class = 'col-lg-4 col-sm-4 col-xs-4' enableEffect = true  (click) = "redirectTo()"></app-summary-board>
+  <app-summary-board label = "今日在线" label-color = "#68c98d" icon = '' [value]="onlineToday" class = 'col-lg-4 col-sm-4 col-xs-4' enableEffect = true (click) = "redirectTo()"></app-summary-board>
+  <app-summary-board label = "今日离线" label-color = "#b4b4b4" icon = '' [value]="offlineToday" class = 'col-lg-4 col-sm-4 col-xs-4' enableEffect = true (click) = "redirectTo()"></app-summary-board>
+  <app-summary-board label = "当前行驶" label-color = "#b9a0ec" icon = '' [value]="runToday" class = 'col-lg-6 col-sm-6 col-xs-6' enableEffect = true (click) = "redirectTo()"></app-summary-board>
+  <app-summary-board label = "当前停车" label-color = "#f4ad86" icon = '' [value]="stopToday" class = 'col-lg-6 col-sm-6 col-xs-6' enableEffect = true (click) = "redirectTo()"></app-summary-board>
+</div>

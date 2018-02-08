@@ -1,0 +1,4 @@
+<div class = 'car-brand-and-type-wrap'>
+  <app-dropdown [items] = "brands" selected-index = 0 (onSelectChanged) = "onSelectBrandChanged($event)"></app-dropdown>
+  <app-dropdown [items] = "types" selected-index = 0 placeholder = "全部型号" (onSelectChanged) = "onSelectTypeChanged($event)"></app-dropdown>
+</div>

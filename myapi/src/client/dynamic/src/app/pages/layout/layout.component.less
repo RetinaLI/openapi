@@ -1,0 +1,72 @@
+#page-wrapper.admin-main{
+  padding-bottom: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+.admin-content-wrap{
+  position: relative;
+  height: 100%;
+}
+
+
+.flex-main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &>.flex-top{
+    height: 60px;
+    width: 100%;
+    flex: none;
+  }
+  &>.flex-content-wrap{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    &>div{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: row;
+      flex: 1;
+
+      &>.flex-left{
+        width: 60px;
+        flex:none;
+      }
+      &>.flex-right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        router-outlet{
+          flex: none;
+          height: 0;
+        }
+        ::ng-deep{
+          &>*{
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flex-main{
+    &>.flex-content-wrap{
+      &>div{
+        &>.flex-left{
+          width: 0;
+          display: none;
+        }
+      }
+    }
+
+  }
+}

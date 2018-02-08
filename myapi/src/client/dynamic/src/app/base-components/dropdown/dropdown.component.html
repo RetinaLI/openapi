@@ -1,0 +1,8 @@
+<div class="dropdown app-dropdown waves-effect waves-block">
+  <button type="button" [class.disable] = "!items || items.length <= 1">{{label}}
+    <span class="caret"></span>
+  </button>
+  <select [id] = "id">
+    <option *ngFor = "let item of items; let i = index;" [value] = "item.value">{{item.label}}</option>
+  </select>
+</div>

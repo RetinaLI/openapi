@@ -1,0 +1,136 @@
+{
+    "data": "",
+    "info": "",
+    "list": [
+        {
+            "province": "河北省",
+            "car_count": 6270
+        },
+        {
+            "province": "山西省",
+            "car_count": 4650
+        },
+        {
+            "province": "山东省",
+            "car_count": 4489
+        },
+        {
+            "province": "河南省",
+            "car_count": 4134
+        },
+        {
+            "province": "广东省",
+            "car_count": 3459
+        },
+        {
+            "province": "江苏省",
+            "car_count": 3384
+        },
+        {
+            "province": "安徽省",
+            "car_count": 2532
+        },
+        {
+            "province": "四川省",
+            "car_count": 2261
+        },
+        {
+            "province": "陕西省",
+            "car_count": 2129
+        },
+        {
+            "province": "浙江省",
+            "car_count": 2030
+        },
+        {
+            "province": "新疆维吾尔自治区",
+            "car_count": 1799
+        },
+        {
+            "province": "内蒙古自治区",
+            "car_count": 1765
+        },
+        {
+            "province": "辽宁省",
+            "car_count": 1479
+        },
+        {
+            "province": "江西省",
+            "car_count": 1366
+        },
+        {
+            "province": "湖北省",
+            "car_count": 1075
+        },
+        {
+            "province": "云南省",
+            "car_count": 1038
+        },
+        {
+            "province": "黑龙江省",
+            "car_count": 842
+        },
+        {
+            "province": "北京市",
+            "car_count": 738
+        },
+        {
+            "province": "贵州省",
+            "car_count": 715
+        },
+        {
+            "province": "湖南省",
+            "car_count": 701
+        },
+        {
+            "province": "福建省",
+            "car_count": 664
+        },
+        {
+            "province": "上海市",
+            "car_count": 575
+        },
+        {
+            "province": "甘肃省",
+            "car_count": 449
+        },
+        {
+            "province": "天津市",
+            "car_count": 427
+        },
+        {
+            "province": "宁夏回族自治区",
+            "car_count": 372
+        },
+        {
+            "province": "吉林省",
+            "car_count": 348
+        },
+        {
+            "province": "广西壮族自治区",
+            "car_count": 342
+        },
+        {
+            "province": "重庆市",
+            "car_count": 316
+        },
+        {
+            "province": "海南省",
+            "car_count": 283
+        },
+        {
+            "province": "青海省",
+            "car_count": 281
+        },
+        {
+            "province": "西藏自治区",
+            "car_count": 182
+        }
+    ],
+    "map": "",
+    "sectionMap": "",
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

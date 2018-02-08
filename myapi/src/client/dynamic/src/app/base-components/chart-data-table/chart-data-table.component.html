@@ -1,0 +1,17 @@
+<div class='data-table chart-data-table {{extClass}}'>
+  <div class='table-head hide' [class.show]="enableTableHead">
+    <table class='head'>
+      <ng-content select="thead"></ng-content>
+    </table>
+  </div>
+  <div class='table-body'>
+    <div class='bg'></div>
+    <div class='table-content'>
+      <table class='body'>
+        <ng-content select="tbody"></ng-content>
+      </table>
+
+    </div>
+    <div class='bottom-modal hide' [class.show]="enableBottomModal"></div>
+  </div>
+</div>

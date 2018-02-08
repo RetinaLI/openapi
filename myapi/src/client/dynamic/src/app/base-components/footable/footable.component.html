@@ -1,0 +1,12 @@
+<div class="footable-wrap" (window:scroll)="onWindowScroll($event)">
+  <div class="wrap-box">
+    <table class="table" (touchstart)="scrollStart($event)" (touchend)="scrollEnd($event)">
+      <ng-content></ng-content>
+    </table>
+    <div class='refresh bottom hide' [ngClass]="{show: bottomed || !loadCompleted}">
+      <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="10" fill="none" stroke-width="2" stroke-miterlimit="10" />
+      </svg>
+    </div>
+  </div>
+</div>

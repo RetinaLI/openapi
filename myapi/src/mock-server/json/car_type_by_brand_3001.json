@@ -1,0 +1,59 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "treeNodes": [
+        {
+            "isParent": false,
+            "id": 1262180,
+            "name": "未知",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 3005,
+            "name": "GTL",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 3006,
+            "name": "ETX",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 3007,
+            "name": "VT",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 3008,
+            "name": "欧曼专用类",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 50160,
+            "name": "其他",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 50080,
+            "name": "EST",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 50081,
+            "name": "EST-A",
+            "parentId": ""
+        }
+    ],
+    "url": ""
+}

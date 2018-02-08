@@ -1,0 +1,38 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "map": {},
+    "mapList": [
+        {
+            "salesCount": 2854,
+            "carTypeId": 3005,
+            "carTypeName": "GTL"
+        },
+        {
+            "salesCount": 1417,
+            "carTypeId": 50080,
+            "carTypeName": "EST"
+        },
+        {
+            "salesCount": 9,
+            "carTypeId": 50081,
+            "carTypeName": "EST-A"
+        },
+        {
+            "salesCount": 215,
+            "carTypeId": 50160,
+            "carTypeName": "其他"
+        },
+        {
+            "salesCount": 2137,
+            "carTypeId": 3006,
+            "carTypeName": "ETX"
+        }
+    ],
+    "resultMap": {},
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

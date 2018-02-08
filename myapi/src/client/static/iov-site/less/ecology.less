@@ -1,0 +1,150 @@
+@import "../../../assets/less/base.less";
+@import "../less/common.less";
+.container{
+  padding-bottom: 1.8rem;
+}
+div.main{
+  .section{
+    &.s1{
+      position: relative;
+      img.bg{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+      }
+      div.content {
+        position: absolute;
+        top: .63rem;
+        z-index: 2;
+        display: flex;
+        padding: 0 .5rem;
+        width: 100%;
+        div{
+          flex: 1;
+
+          img{
+            height: 100%;
+          }
+
+          &.left{
+            width: 3.35rem;
+            height: 1.04rem;
+            flex: none;
+          }
+
+          &.right{
+            text-align: right;
+            height: 1.04rem;
+          }
+        }
+      }
+    }
+
+    &.s2{
+      padding: 0 .4rem;
+      z-index: 2;
+      margin-top: -1.35rem;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+    &.s3{
+      padding: 0 .4rem;
+      img{
+        display: block;
+        margin: 0 auto;
+
+        &.h1{
+          width: 100%;
+          margin: .7rem auto;
+        }
+      }
+      div.content{
+        margin: 0 -1.39rem 0 -1.5rem;
+        img{
+          width: 9.59rem;
+          height: 10.27rem;
+        }
+      }
+    }
+
+    &.s4{
+      padding: 0 .4rem;
+      div.content{
+        position: relative;
+        img{
+          position: relative;
+          z-index: 2;
+          display: block;
+          margin: 0 auto;
+        }
+        div.car-wrapper {
+          position: relative;
+          img.car-bg{
+            width: 2.58rem;
+            margin: 0 auto;
+          }
+          img.car{
+            .x-tlayout-v-center();
+            z-index: 1;
+            height: 2.18rem;
+            width: auto;
+            left: 54%;
+          }
+        }
+        img.l1{
+          height: 2rem;
+          margin-top: -.3rem;
+        }
+        img.l2{
+          height: 2.15rem;
+          margin-top: -.72rem;
+        }
+        img.l3{
+          height: 2.3rem;
+          margin-top: -.85rem;
+        }
+      }
+      &>img{
+        display: block;
+        width: 100%;
+
+        &.h1{
+          margin-top: .95rem;
+          margin-bottom: .6rem;
+        }
+        &.desc{
+          margin-bottom: .46rem;
+        }
+      }
+    }
+
+    &.s5{
+      padding: 0 .4rem;
+      div.h1{
+        img.car{
+          left: -2.1rem;
+        }
+      }
+      &>img{
+        display: block;
+        height: 1.3rem;
+        margin: 1rem auto .9rem;
+      }
+      div.content{
+        position: relative;
+        height: 6.7rem;
+        width: 6.7rem;
+        img{
+          display: block;
+          width: 100%;
+        }
+        img.c{
+          .x-tlayout-v-center();
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<div [style.height]="height" class = 'chart-swiper-container'>
+  <div class='clearfix' (window:resize)="onWindowResize()">
+    <h3 class='pull-left'>{{title}}</h3>
+    <div class="tab-nav sttabs tabs-style-underline pull-right" [class.hide]="true">
+      <nav>
+        <ul>
+          <li class='tab-current' [ngClass]="{'tab-current': currentIndex == 0}" (click)="jumpTo(0)">
+            <a>
+              <span>图表</span>
+            </a>
+          </li>
+          <li [ngClass]="{'tab-current': currentIndex == 1}" (click)="jumpTo(1)">
+            <a>
+              <span>列表</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="swiper-container" [ngClass]="{'big-screen': is_big_screen}">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <ng-content select=".swiper1"></ng-content>
+      </div>
+      <div class="swiper-slide">
+        <ng-content select=".swiper2"></ng-content>
+      </div>
+    </div>
+    <div class="swiper-pagination" [class.hide]="is_big_screen"></div>
+  </div>
+</div>

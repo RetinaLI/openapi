@@ -1,0 +1,95 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "map": {},
+    "mapList": [],
+    "resultMap": {
+        "0": [
+            {
+                "salesCount": 445,
+                "carTypeName": "EST"
+            },
+            {
+                "salesCount": 1345,
+                "carTypeName": "GTL"
+            },
+            {
+                "salesCount": 3,
+                "carTypeName": "未知"
+            },
+            {
+                "salesCount": 58,
+                "carTypeName": "其他"
+            },
+            {
+                "salesCount": 1283,
+                "carTypeName": "ETX"
+            },
+            {
+                "salesCount": 4,
+                "carTypeName": "EST-A"
+            }
+        ],
+        "50": [
+            {
+                "salesCount": 29785,
+                "carTypeName": "ETX"
+            },
+            {
+                "salesCount": 2049,
+                "carTypeName": "EST"
+            },
+            {
+                "salesCount": 25225,
+                "carTypeName": "GTL"
+            },
+            {
+                "salesCount": 39,
+                "carTypeName": "EST-A"
+            },
+            {
+                "salesCount": 7,
+                "carTypeName": "未知"
+            },
+            {
+                "salesCount": 1,
+                "carTypeName": "VT"
+            },
+            {
+                "salesCount": 4613,
+                "carTypeName": "其他"
+            }
+        ],
+        "30": [
+            {
+                "salesCount": 3219,
+                "carTypeName": "GTL"
+            },
+            {
+                "salesCount": 535,
+                "carTypeName": "其他"
+            },
+            {
+                "salesCount": 6,
+                "carTypeName": "未知"
+            },
+            {
+                "salesCount": 1321,
+                "carTypeName": "EST"
+            },
+            {
+                "salesCount": 3393,
+                "carTypeName": "ETX"
+            },
+            {
+                "salesCount": 20,
+                "carTypeName": "EST-A"
+            }
+        ]
+    },
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

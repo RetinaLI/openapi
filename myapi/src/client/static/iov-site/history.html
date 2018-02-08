@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit" />
+  <meta name="Keywords" content="" />
+  <meta name="Description" content="" />
+  <title>福田智科 历程介绍</title>
+  <!-- <link type="image/x-icon" rel="shortcut icon" /> -->
+  <!-- build:css css/history.css -->
+  <link rel="stylesheet/less" type="text/css" href="less/history.less">
+  <!-- endbuild -->
+  <!-- build:remove -->
+  <script type="text/javascript">
+  less = {
+    env: "development",
+    async: false,
+    fileAsync: false,
+    poll: 1000,
+    functions: {},
+    dumpLineNumbers: "comments",
+    relativeUrls: false
+  };
+  </script>
+  <script type="text/javascript" src='/assets/js/less.min.js'></script>
+  <!-- endbuild -->
+  <script type="text/javascript">
+  /*
+   * 页面加载逻辑：
+   *    1. 首先会展示给用户一个loading界面；
+   *    2. 执行`pageLoadConfig.beforeStartLoad`方法；
+   *    3. 开始加载页面必要的资源，页面必要的资源根据`pageLoadConfig.files`、`html标签中的data-src/data-poster属性`、`html标签中的data-defer/data-defer-poster`分为三个阶段，分别用数字1、2、3对应，这三个阶段是依次执行的，可以使用`pageLoadConfig.completeStep`来指定在哪个阶段触发完成；
+   *    4. 当`pageLoadConfig.completeStep`指定阶段的资源加载完成后，判断`pageLoadConfig.customCompleteNotify`是否为true，如果为true，会立刻触发执行`pageLoadConfig.onLoadComplete`方法，跳至第5步，否则必须由用户自己手动触发完成事件，代码：`document.dispatchEvent("page-loaded");`，才会进入第5步；
+   *    5. 删除loading，显示页面的首屏；
+   *
+  */
+  var pageLoadConfig = {
+    pageSize: 750,
+    completeStep: 2,
+    //是否由用户自定义触发加载完成事件，如果设为true，必须手动触发`document.dispatchEvent("page-loaded")`，才能去掉loading页面
+    customCompleteNotify: false,
+    beforeStartLoad: function(callback){
+      if(window.beforeStartLoad) {
+        window.beforeStartLoad(callback);
+      } else {
+        callback();
+      }
+    },
+    onLoadComplete: function(callback) {
+      window.initApp();
+      callback();
+    },
+    files: [
+      // {
+      //   type: "jpg",
+      //   url: ""
+      // }
+    ]
+  };
+  </script>
+</head>
+
+<body>
+  <div class='zbase-loading'>
+    <p class='zbase-note-wrap'><span class='zbase-note'>loading...</span></p>
+  </div>
+  <div class = 'container'>
+    <div class = 'nav no-bg fixed'>
+      <div class = 'logo'>
+        <img data-src = "assets/logo.png" />
+      </div>
+      <ul class = 'menus'>
+        <li><a class = 'active' href = 'history.html'><span class = 'hidden'>历程介绍</span><span>历程介绍</span></a></li>
+        <li><a href = 'ecology.html'><span class = 'hidden'>战略生态</span><span>战略生态</span></a></li>
+        <li><a href = 'terminal-products.html'><span class = 'hidden'>终端产品</span><span>终端产品</span></a></li>
+        <li><a href = 'platform-products.html'><span class = 'hidden'>平台产品</span><span>平台产品</span></a></li>
+      </ul>
+    </div>
+    <div class = 'main'>
+      <div class = 'bg'>
+        <img class = 'bg1' data-src = "assets/history/1-bg1.png" />
+        <img class = 'bg2' data-src = "assets/history/1-bg2.jpg" />
+      </div>
+      <div class = 'section s1'>
+        <img class = 'bg2 hidden' data-src = "assets/history/1-bg2.jpg" />
+        <div class = 'content'>
+          <div class = 'h1'>
+            <img data-src = 'assets/history/1-h1-1.png' />
+          </div>
+          <div class = 'h2'>
+            <img data-src = 'assets/history/1-h2-1.png' />
+          </div>
+          <div class = 'block'></div>
+          <div class = 'h3'><img data-src = 'assets/history/1-h2-2.png' /></div>
+        </div>
+      </div>
+      <div class = 'section s2'>
+        <div class = 'h1'>
+          <img data-src = 'assets/history/2-history.png' />
+        </div>
+        <div class = 'history-list'>
+          <div class = 'left-bg'></div>
+          <div class = 'item i1'>
+            <div>
+              <img data-defer = 'assets/history/2-date-1.png' />
+            </div>
+            <div>
+              <img data-defer = 'assets/history/2-text-1.png' />
+            </div>
+          </div>
+          <div class = 'item i2'>
+            <div>
+            <img data-defer = 'assets/history/2-date-2.png' />
+            </div>
+            <div>
+            <img data-defer = 'assets/history/2-text-2.png' />
+            </div>
+          </div>
+          <div class = 'item i3'>
+            <div>
+            <img data-defer = 'assets/history/2-date-3.png' />
+            </div>
+            <div>
+            <img data-defer = 'assets/history/2-text-3.png' />
+            </div>
+          </div>
+          <div class = 'item i4'>
+            <div>
+            <img data-defer = 'assets/history/2-date-4.png' />
+            </div>
+            <div>
+            <img data-defer = 'assets/history/2-text-4.png' />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "bottom-img">
+        <img class = '' data-defer = 'assets/history/2-bottom.png'>
+      </div>
+    </div>
+  </div>
+  <!-- <img data-src="assets/aa.png">
+  <img data-defer="assets/aa.png">
+  <video data-src = "assets/music.mp4" data-poster="assets/thumbnail.png" ></video>
+  <video data-defer-src = "assets/music2.mp4" data-defer-poster="assets/thumbnail2.png" ></video> -->
+</body>
+<!-- build:js js/history.js -->
+<script type="text/javascript" src='/assets/js/event.js'></script>
+<script type="text/javascript" src='/assets/js/base.js'></script>
+<script type="text/javascript" src='js/history.js'></script>
+<!-- endbuild -->
+
+</html>

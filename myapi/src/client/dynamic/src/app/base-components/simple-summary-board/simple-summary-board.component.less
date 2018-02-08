@@ -1,0 +1,40 @@
+@import "../../../../../assets/themes/ample-admin/variables-light";
+@import "../../../../../assets/themes/mixin";
+:host{
+  position: relative;
+  ::ng-deep{
+    canvas {
+      .absolute-center();
+    }
+  }
+}
+.data-card{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  label{
+    font-weight: normal;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  p{
+    margin: 0 0 .2rem 0;
+    line-height: 1;
+
+    span.value{
+      color: #ccc;
+    }
+
+    span.sub-label{
+      display: none;
+      &.visible{
+        display: inline;
+      }
+    }
+
+    span.unit{
+      padding: 0;
+    }
+  }
+}

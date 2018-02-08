@@ -1,0 +1,1013 @@
+{
+    "data": "",
+    "info": "",
+    "list": [
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838026724",
+                    "location": {
+                        "latitude": "30.030003",
+                        "longitude": "103.060656",
+                        "mileage": "4460900",
+                        "sendTime": "2017-10-14 09:08:30"
+                    }
+                },
+                "id": 209052,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:57",
+            "dealer": {
+                "name": "成都劲驰汽车销售服务有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": "",
+                "name": ""
+            },
+            "endShippingTime": "",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 78034,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "",
+            "modified": "2017-10-14 04:43:40",
+            "modifiedTime": "04:43",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-03-02 11:01:17",
+            "startShippingTime": "",
+            "vin": "LRDS6PEB0HT004933"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64838034101",
+                    "location": {
+                        "latitude": "35.613368",
+                        "longitude": "118.812756",
+                        "mileage": "1172900",
+                        "sendTime": "2017-10-14 09:00:55"
+                    }
+                },
+                "id": 812739,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 19:10:48",
+            "dealer": {
+                "name": "山东福奥圣通工贸集团有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8665,
+                "name": "山东福奥圣通工贸集团有限公司"
+            },
+            "endShippingTime": "2017-07-06 15:31:29",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 570211,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-07-06 15:31:29",
+            "modified": "2017-10-14 04:53:20",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-29 14:08:58",
+            "startShippingTime": "2017-07-05 15:04:10",
+            "vin": "LRDS6PEB8HH017240"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "EST"
+                },
+                "currentDevice": {
+                    "did": "A64838039049",
+                    "location": {
+                        "latitude": "28.010545",
+                        "longitude": "115.389270",
+                        "mileage": "2030800",
+                        "sendTime": "2017-10-14 09:01:59"
+                    }
+                },
+                "id": 317894,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:59:03",
+            "dealer": {
+                "name": "江西省宜春二0六物资供应有限责任公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9495,
+                "name": "江西锦圣汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-07-08 09:50:48",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 113444,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-07-08 09:50:48",
+            "modified": "2017-10-14 04:53:31",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-03-12 01:49:35",
+            "startShippingTime": "2017-07-04 22:08:43",
+            "vin": "LRDV7PEC7HT014233"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "其他"
+                },
+                "currentDevice": {
+                    "did": "A64703730001",
+                    "location": {
+                        "latitude": "24.700385",
+                        "longitude": "113.592656",
+                        "mileage": "2394900",
+                        "sendTime": "2017-10-14 09:04:47"
+                    }
+                },
+                "id": 317777,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:06",
+            "dealer": {
+                "name": "佛山市南海腾威汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9829,
+                "name": "佛山市南海腾威汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-07-09 10:42:42",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 71291,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-07-09 10:42:42",
+            "modified": "2017-10-14 04:42:41",
+            "modifiedTime": "04:42",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-03-11 09:55:30",
+            "startShippingTime": "2017-07-04 17:56:11",
+            "vin": "LRDS6PEB0HT014216"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64703733385",
+                    "location": {
+                        "latitude": "34.311628",
+                        "longitude": "117.151280",
+                        "mileage": "1588700",
+                        "sendTime": "2017-10-14 08:49:53"
+                    }
+                },
+                "id": 317765,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 15:01:13",
+            "dealer": {
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9589,
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-07-06 08:39:33",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 122798,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-07-06 08:39:33",
+            "modified": "2017-10-14 04:53:58",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-27 16:06:26",
+            "startShippingTime": "2017-07-05 08:27:57",
+            "vin": "LRDV6PEC3HL603489"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64703732513",
+                    "location": {
+                        "latitude": "34.311576",
+                        "longitude": "117.151315",
+                        "mileage": "1478600",
+                        "sendTime": "2017-10-14 08:48:59"
+                    }
+                },
+                "id": 317756,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:56:24",
+            "dealer": {
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9589,
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-06-30 21:29:14",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 95548,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-30 21:29:14",
+            "modified": "2017-10-14 04:48:37",
+            "modifiedTime": "04:48",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-27 15:59:51",
+            "startShippingTime": "2017-06-29 23:31:25",
+            "vin": "LRDV6PECXHL603487"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64838032080",
+                    "location": {
+                        "latitude": "27.914771",
+                        "longitude": "120.622826",
+                        "mileage": "2497100",
+                        "sendTime": "2017-10-14 09:04:28"
+                    }
+                },
+                "id": 315183,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:57:40",
+            "dealer": {
+                "name": "浙江湖州新华夏冀超汽车连锁有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9599,
+                "name": "浙江湖州新华夏冀超汽车连锁有限公司"
+            },
+            "endShippingTime": "2017-08-15 09:10:50",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 104470,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-08-15 09:10:50",
+            "modified": "2017-10-14 04:51:37",
+            "modifiedTime": "04:51",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-20 15:30:29",
+            "startShippingTime": "2017-08-11 17:22:37",
+            "vin": "LRDV7PECXHH016674"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64838034808",
+                    "location": {
+                        "latitude": "34.311558",
+                        "longitude": "117.151243",
+                        "mileage": "1436200",
+                        "sendTime": "2017-10-14 09:00:40"
+                    }
+                },
+                "id": 313057,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:59:05",
+            "dealer": {
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": "",
+                "name": ""
+            },
+            "endShippingTime": "2017-06-20 00:49:20",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 113714,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-20 00:49:20",
+            "modified": "2017-10-14 04:53:34",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-15 09:31:13",
+            "startShippingTime": "2017-06-19 14:50:05",
+            "vin": "LRDV6PEC7HH016148"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64838030188",
+                    "location": {
+                        "latitude": "34.311608",
+                        "longitude": "117.151308",
+                        "mileage": "1582300",
+                        "sendTime": "2017-10-14 08:50:44"
+                    }
+                },
+                "id": 312954,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:50:20",
+            "dealer": {
+                "name": "徐州凯驰汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": "",
+                "name": ""
+            },
+            "endShippingTime": "2017-06-19 11:06:01",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 46629,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-19 11:06:01",
+            "modified": "2017-10-14 04:53:23",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-06-14 18:45:32",
+            "startShippingTime": "2017-06-17 14:46:54",
+            "vin": "LRDV6PECXHH016130"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838028094",
+                    "location": {
+                        "latitude": "38.631065",
+                        "longitude": "114.725586",
+                        "mileage": "356700",
+                        "sendTime": "2017-10-14 08:59:03"
+                    }
+                },
+                "id": 306582,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:49:51",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-06-08 15:08:37",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 42113,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-08 15:08:37",
+            "modified": "2017-10-14 04:52:33",
+            "modifiedTime": "04:52",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-29 17:38:18",
+            "startShippingTime": "2017-06-06 16:50:20",
+            "vin": "LRDS6PEB6HT011708"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838032612",
+                    "location": {
+                        "latitude": "38.631306",
+                        "longitude": "114.725431",
+                        "mileage": "361200",
+                        "sendTime": "2017-10-14 08:57:58"
+                    }
+                },
+                "id": 306577,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:54:13",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-05-31 20:34:42",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 79940,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-05-31 20:34:42",
+            "modified": "2017-10-14 04:44:00",
+            "modifiedTime": "04:44",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-29 17:32:32",
+            "startShippingTime": "2017-05-31 17:42:47",
+            "vin": "LRDS6PEB4HT011707"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838028893",
+                    "location": {
+                        "latitude": "38.631146",
+                        "longitude": "114.725825",
+                        "mileage": "385200",
+                        "sendTime": "2017-10-14 08:43:23"
+                    }
+                },
+                "id": 306480,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:51",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-06-02 14:03:17",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 77117,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-02 14:03:17",
+            "modified": "2017-10-14 04:43:30",
+            "modifiedTime": "04:43",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-29 15:50:52",
+            "startShippingTime": "2017-06-02 13:39:12",
+            "vin": "LRDS6PEB7HR011746"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838028086",
+                    "location": {
+                        "latitude": "38.631276",
+                        "longitude": "114.725786",
+                        "mileage": "390700",
+                        "sendTime": "2017-10-14 08:57:41"
+                    }
+                },
+                "id": 306478,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:55:23",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-06-02 14:03:16",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 88147,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-02 14:03:16",
+            "modified": "2017-10-14 04:46:12",
+            "modifiedTime": "04:46",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-29 15:47:11",
+            "startShippingTime": "2017-06-02 13:39:12",
+            "vin": "LRDS6PEB5HR011745"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838009898",
+                    "location": {
+                        "latitude": "38.638103229614",
+                        "longitude": "114.73853672621",
+                        "mileage": "347400",
+                        "sendTime": "2017-10-05 15:22:13"
+                    }
+                },
+                "id": 306476,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:55:23",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-06-08 15:08:10",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 88145,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-08 15:08:10",
+            "modified": "2017-10-14 04:46:12",
+            "modifiedTime": "04:46",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-29 15:43:40",
+            "startShippingTime": "2017-06-06 16:50:31",
+            "vin": "LRDS6PEB3HR011744"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "其他"
+                },
+                "currentDevice": {
+                    "did": "A64838023533",
+                    "location": {
+                        "latitude": "43.906028",
+                        "longitude": "87.439961",
+                        "mileage": "109600",
+                        "sendTime": "2017-10-14 08:55:57"
+                    }
+                },
+                "id": 306191,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:58:59",
+            "dealer": {
+                "name": "乌鲁木齐鑫晟东方汽车销售有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8766,
+                "name": "乌鲁木齐鑫晟东方汽车销售有限公司"
+            },
+            "endShippingTime": "2017-06-12 17:58:22",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 112938,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-06-12 17:58:22",
+            "modified": "2017-10-14 04:53:26",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-28 16:35:44",
+            "startShippingTime": "2017-06-08 12:43:54",
+            "vin": "LRDS6PEB8HR011643"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838033810",
+                    "location": {
+                        "latitude": "46.736980",
+                        "longitude": "131.115473",
+                        "mileage": "2016500",
+                        "sendTime": "2017-10-14 08:56:38"
+                    }
+                },
+                "id": 305485,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:18",
+            "dealer": {
+                "name": "双鸭山众龙腾汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 10148,
+                "name": "双鸭山众龙腾汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-08-18 09:09:53",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 72729,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-08-18 09:09:53",
+            "modified": "2017-10-14 04:42:59",
+            "modifiedTime": "04:42",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-26 16:40:39",
+            "startShippingTime": "2017-08-15 23:18:35",
+            "vin": "LRDV7PEC0HT011402"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838009019",
+                    "location": {
+                        "latitude": "46.720478",
+                        "longitude": "131.153483",
+                        "mileage": "2074600",
+                        "sendTime": "2017-10-14 09:05:44"
+                    }
+                },
+                "id": 305471,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:30",
+            "dealer": {
+                "name": "双鸭山众龙腾汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 10148,
+                "name": "双鸭山众龙腾汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-08-18 09:09:48",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 74391,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-08-18 09:09:48",
+            "modified": "2017-10-14 04:43:11",
+            "modifiedTime": "04:43",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-05-26 16:20:29",
+            "startShippingTime": "2017-08-15 23:18:35",
+            "vin": "LRDV7PEC4HT011399"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64838020639",
+                    "location": {
+                        "latitude": "31.702725",
+                        "longitude": "113.415618",
+                        "mileage": "1127700",
+                        "sendTime": "2017-10-14 08:59:39"
+                    }
+                },
+                "id": 297173,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:50:28",
+            "dealer": {
+                "name": "陕西伊斯特汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 9429,
+                "name": "陕西伊斯特汽车贸易有限公司"
+            },
+            "endShippingTime": "2017-10-08 09:30:18",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 48170,
+            "inCentreWHTime": "2017-09-11 09:52:12",
+            "inDealerWHTime": "2017-10-08 09:30:18",
+            "modified": "2017-10-14 04:53:34",
+            "modifiedTime": "04:53",
+            "new": false,
+            "outCentreWHTime": "2017-10-05 19:20:26",
+            "outDealerWHTime": "",
+            "productDate": "2017-04-28 10:18:03",
+            "startShippingTime": "2017-10-05 19:20:26",
+            "vin": "LRDV7PEC3HH008996"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "GTL"
+                },
+                "currentDevice": {
+                    "did": "A64838008531",
+                    "location": {
+                        "latitude": "38.631373",
+                        "longitude": "114.725815",
+                        "mileage": "372100",
+                        "sendTime": "2017-10-14 08:51:40"
+                    }
+                },
+                "id": 295169,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:53:30",
+            "dealer": {
+                "name": "庞大汽贸集团股份有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": 8715,
+                "name": "庞大汽贸集团股份有限公司欧马可店"
+            },
+            "endShippingTime": "2017-04-29 21:03:09",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 74367,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "2017-04-29 21:03:09",
+            "modified": "2017-10-14 04:43:11",
+            "modifiedTime": "04:43",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-04-23 08:17:28",
+            "startShippingTime": "2017-04-27 19:12:13",
+            "vin": "LRDS6PEBXHT009203"
+        },
+        {
+            "actualSaleDate": "2017-10-12 00:00:00",
+            "carInfo": {
+                "carType": {
+                    "carBrand": {
+                        "name": "欧曼"
+                    },
+                    "name": "ETX"
+                },
+                "currentDevice": {
+                    "did": "A64828892188",
+                    "location": {
+                        "latitude": "22.661501",
+                        "longitude": "114.036455",
+                        "mileage": "4071600",
+                        "sendTime": "2017-10-14 08:54:42"
+                    }
+                },
+                "id": 290216,
+                "lpn": ""
+            },
+            "centreWarehouse": {},
+            "company": {},
+            "created": "2017-07-26 14:52:56",
+            "dealer": {
+                "name": "深圳市宝源汽车贸易有限公司"
+            },
+            "dealerWarehouse": {
+                "fence": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "id": "",
+                "name": ""
+            },
+            "endShippingTime": "",
+            "estimateSaleDate": "",
+            "estimateSaleReason": "",
+            "id": 69790,
+            "inCentreWHTime": "",
+            "inDealerWHTime": "",
+            "modified": "2017-10-14 04:42:26",
+            "modifiedTime": "04:42",
+            "new": false,
+            "outCentreWHTime": "",
+            "outDealerWHTime": "",
+            "productDate": "2017-04-09 08:14:43",
+            "startShippingTime": "",
+            "vin": "LRDV7PEC0HL003655"
+        }
+    ],
+    "map": {},
+    "mapList": [],
+    "resultMap": {},
+    "success": true,
+    "texts": "",
+    "totalCount": 1629,
+    "url": ""
+}

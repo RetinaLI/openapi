@@ -1,0 +1,48 @@
+@import "../../../../../assets/themes/mixin";
+.summary-board{
+  display: block;
+  label{
+    text-align: left;
+    margin: .24rem;
+    line-height: 1;
+  }
+  p.value{
+    text-align: left;
+    margin: 0 .24rem .24rem .24rem;
+    line-height: 1;
+  }
+}
+
+span.icon{
+  position: relative;
+  &:after{
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: .38rem;
+    height: .38rem;
+    .absolute-vertical-middle();
+  }
+
+  &.car:after{
+    background-image: url("../../../../../assets/images/car.png");
+  }
+  &.online:after{
+    background-image: url("../../../../../assets/images/online.png");
+  }
+  &.offline:after{
+    background-image: url("../../../../../assets/images/offline.png");
+  }
+  &.run:after{
+    background-image: url("../../../../../assets/images/run.png");
+  }
+  &.park:after{
+    background-image: url("../../../../../assets/images/park.png");
+  }
+}
+
+span.unit{
+  font-size: .14rem;
+  margin-left: 4px;
+}

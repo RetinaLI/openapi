@@ -1,0 +1,20 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "locations": "",
+    "map": "",
+    "objectList": "",
+    "orderMap": {
+        "ONE_DAY_COUNT": 214,
+        "MORE_DAY_COUNT": 2147,
+        "NOT_DEPARTURE_COUNT": 4048,
+        "TWO_DAY_COUNT": 224,
+        "MIL_COUNT": 2826,
+        "THREE_DAY_COUNT": 244
+    },
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

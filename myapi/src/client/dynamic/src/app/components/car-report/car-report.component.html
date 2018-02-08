@@ -1,0 +1,312 @@
+<div class='report-wrapper ' (window:resize)="onWindowResize()">
+  <div class='detail-wrapper'>
+    <div class='fix-wrapper'>
+      <div class=page_title>
+        <h1 class='auto-content f'>{{title}}</h1>
+        <div>
+          <app-dropdown placeholder="选择报表" [items]="reportDropDownList" [selected-index]="reportSelectedIndex" (onSelectChanged)="onReportSelectChanged($event)"></app-dropdown>
+        </div>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix first bottom-canvas e1">
+      <p>
+        <span>{{reportStartDate}}</span>-
+        <span>{{reportEndDate}}</span>
+      </p>
+      <h2 class="auto-content">各{{dataGroupTypeLabel}}车辆配装情况</h2>
+      <div class="travel-info-content summary-board-wrap">
+        <div class='summary-board'>
+          <div>
+            <label>车辆总数</label>
+            <p>
+              <span class='number-blue carBrandAddNum'>{{e1Service.carSumNum}}</span>
+              <i class="unit">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board'>
+          <div>
+            <label class='auto-content'>本{{reportTypeLabel}}新增</label>
+            <p>
+              <span class='number-blue'>{{e1Service.newNumInWeek}}</span>
+              <i class="unit">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board'>
+          <div>
+            <label class='auto-content'>上{{reportTypeLabel}}新增</label>
+            <p>
+              <span class='number-blue'>{{e1Service.newNumInPreWeek}}</span>
+              <i class="unit">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board'>
+          <div>
+            <label>环比{{e1Service.weekRateLabel}}</label>
+            <p>
+              <span class='number-yellow'>{{e1Service.newRateWithPreWeek}}</span>
+              <i class="unit number-yellow">%</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="week6AddInfo" class='canvas-wrap'>
+        <app-echart-base char-type="bar" [option]="e1Service.car_new_num_option"></app-echart-base>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix bg-blue e2">
+      <h2 class="auto-content">各{{dataGroupTypeLabel}}车辆在线情况（在线率）</h2>
+      <div class="travel-info-content summary-board-wrap">
+        <div class='summary-board'>
+          <div>
+            <label>车辆总数</label>
+            <p>
+              <span class='number-blue'>{{e1Service.carSumNum}}</span>
+              <i class="unit carNum">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board'>
+          <div>
+            <label class='auto-content'>本{{reportTypeLabel}}总在线车辆数</label>
+            <p>
+              <span class='number-blue'>{{e2Service.onlineNumInCurrent}}</span>
+              <i class="unit carBrandOnlineNum">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board'>
+          <div>
+            <label class='auto-content'>本{{reportTypeLabel}}平均在线率</label>
+            <p>
+              <span class='number-blue'>{{e2Service.onlineRateInCurrent}}</span>
+              <i class="unit">%</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="carBrandAddAndRunInfo" class='canvas-wrap'>
+        <app-echart-base char-type="line" [option]="e2Service.car_online_rate_option"></app-echart-base>
+      </div>
+      <div class='table-wrap'>
+        <table id="online_list" class="tableStyle">
+          <tr>
+            <th class="sort-number">序号</th>
+            <th>品牌名称</th>
+            <th>总数</th>
+            <th>在线数
+              <br/>(辆)</th>
+            <th>在线率
+              <br/>(%)</th>
+          </tr>
+          <tr *ngFor="let item of e2Service.Q3AddData; let i = index; trackBy: e2Service.trackByQ3AddData">
+            <td>{{i + 1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.iCarNum}}</td>
+            <td>{{item.onLine}}</td>
+            <td>{{item.onLineRate}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix travel-report e7">
+      <h2 class="auto-content">各{{dataGroupTypeLabel}}车辆运营情况</h2>
+      <div class="travel-info-content summary-board-wrap">
+        <div class='summary-board col-3'>
+          <div>
+            <label>运营车辆总数</label>
+            <p>
+              <span id="total" class='number-blue'>{{e7Service.totalRunNum}}</span>
+              <i class="unit">辆</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>运行里程数</label>
+            <p>
+              <span id="mileage" class='number-blue'>{{e7Service.totalMileageNum}}</span>
+              <i class="unit">万公里</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>运行时长</label>
+            <p>
+              <span id="hours" class='number-blue'>{{e7Service.totalRunTime}}</span>
+              <i class="unit">万小时</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="travel-info-content summary-board-wrap">
+        <div class='summary-board col-3'>
+          <div>
+            <label>采集位置数据量</label>
+            <p>
+              <span id="locationTotal" class='number-blue'>{{e7Service.positionDataNum}}</span>
+              <i class="unit">{{e7Service.positionDataNumUnit}}</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>采集CAN数据量</label>
+            <p>
+              <span id="canTotal" class='number-blue'>{{e7Service.canDataNum}}</span>
+              <i class="unit">{{e7Service.canDataNumUnit}}</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>采集报警数</label>
+            <p>
+              <span id="alertTotal" class='number-blue'>{{e7Service.alarmNum}}</span>
+              <i class="unit alertTotal-unit">{{e7Service.alarmUnit}}</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="travel-info-content summary-board-wrap new-energy" [class.hide]="dataRange != 'new_energy'">
+        <div class='summary-board col-3'>
+          <div>
+            <label>总耗电量</label>
+            <p>
+              <span id="sumPower" class='number-blue'>{{e7Service.totalChargeNum}}</span>
+              <i class="unit">万度</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>充电次数</label>
+            <p>
+              <span id="chargeCount" class='number-blue'>{{e7Service.totalChargeCount}}</span>
+              <i class="unit">万次</i>
+            </p>
+          </div>
+        </div>
+        <div class='summary-board col-3'>
+          <div>
+            <label>放电次数</label>
+            <p>
+              <span id="dischargeCount" class='number-blue'>{{e7Service.totalUnChargeCount}}</span>
+              <i class="unit">万次</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='table-wrap'>
+        <table id="runInfo_list">
+          <tr>
+            <th class="sort-number">序号</th>
+            <th>品牌名称</th>
+            <th>车辆数</th>
+            <th>总运营里程
+              <br/>(万公里) </th>
+            <th>总运营时长
+              <br/>(万小时)</th>
+          </tr>
+          <tr *ngFor="let item of e7Service.dataList; let i = index; trackBy: e7Service.trackByDataList">
+            <td>{{i + 1}}</td>
+            <td>{{item.key}}</td>
+            <td>{{item.carNum}}</td>
+            <td>{{item.mileAge}}</td>
+            <td>{{item.runTime}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix bg-blue running-info">
+      <h2 class="auto-content">各{{dataGroupTypeLabel}}车辆运营情况</h2>
+      <div id="mileageByCarBrand" class='canvas-wrap e8'>
+        <app-echart-base char-type="line" [option]="e8_9_10_11_Service.avg_mileage_option"></app-echart-base>
+      </div>
+      <div id="hourByCarBrand" class='canvas-wrap e9'>
+        <app-echart-base char-type="line" [option]="e8_9_10_11_Service.avg_work_time_option"></app-echart-base>
+      </div>
+      <div id="rateByCarBrand" class='canvas-wrap e10'>
+        <app-echart-base char-type="line" [option]="e8_9_10_11_Service.avg_work_rate_option"></app-echart-base>
+      </div>
+      <div id="powerByCarBrand" class='canvas-wrap hide e11' [class.show]="dataRange == 'new_energy'">
+        <app-echart-base char-type="line" [option]="e8_9_10_11_Service.avg_uncharge_power_option"></app-echart-base>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix e4">
+      <h2>运营平均里程分布情况</h2>
+      <div id="operateAvgMileageChart" class='canvas-wrap' [style.height]="e4_5_6_Service.avgMileageService.chartHeight">
+        <app-echart-base char-type="line" [option]="e4_5_6_Service.avgMileageService.chartOption" [height]="e4_5_6_Service.avgMileageService.chartHeight"></app-echart-base>
+      </div>
+      <div class='data-paragraph show' [class.hide]="e4_5_6_Service.avgMileageService.list.length == 0">
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgMileageService.topArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgMileageService.topArr.length - 1 ? "":"、"}}
+          </a>是全国运营平均里程最多的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgMileageService.topArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>公里{{i == e4_5_6_Service.avgMileageService.topArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgMileageService.bottomArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgMileageService.bottomArr.length - 1 ? "":"、"}}
+          </a>是全国运营平均里程最少的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgMileageService.bottomArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>公里{{i == e4_5_6_Service.avgMileageService.bottomArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix bg-blue e5">
+      <h2>运营平均速度分布情况</h2>
+      <div id="operateAvgVelocityChart" class='canvas-wrap' [style.height]="e4_5_6_Service.avgSpeedService.chartHeight">
+        <app-echart-base char-type="line" [option]="e4_5_6_Service.avgSpeedService.chartOption" [height]="e4_5_6_Service.avgSpeedService.chartHeight"></app-echart-base>
+      </div>
+      <div class='data-paragraph show' [class.hide]="e4_5_6_Service.avgSpeedService.list.length < 10">
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgSpeedService.topArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgSpeedService.topArr.length - 1 ? "":"、"}}
+          </a>是全国运营平均速度最快的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgSpeedService.topArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>KM/H{{i == e4_5_6_Service.avgSpeedService.topArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgSpeedService.bottomArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgSpeedService.bottomArr.length - 1 ? "":"、"}}
+          </a>是全国运营平均速度最慢的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgSpeedService.bottomArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>KM/H{{i == e4_5_6_Service.avgSpeedService.bottomArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="travel-info new-row clearfix e6">
+      <h2>运营率分布情况</h2>
+      <div id="operateAttendanceChart" class='canvas-wrap' [style.height]="e4_5_6_Service.avgAttendanceService.chartHeight">
+        <app-echart-base char-type="line" [option]="e4_5_6_Service.avgAttendanceService.chartOption" [height]="e4_5_6_Service.avgAttendanceService.chartHeight"></app-echart-base>
+      </div>
+      <div class='data-paragraph show' [class.hide]="e4_5_6_Service.avgAttendanceService.list.length < 10">
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgAttendanceService.topArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgAttendanceService.topArr.length - 1 ? "":"、"}}
+          </a>是全国运营率最高的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgAttendanceService.topArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>%{{i == e4_5_6_Service.avgAttendanceService.topArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+        <p>
+          <a *ngFor="let item of e4_5_6_Service.avgAttendanceService.bottomArr;let i = index;">
+            <label>{{item.city}}</label>{{i == e4_5_6_Service.avgAttendanceService.bottomArr.length - 1 ? "":"、"}}
+          </a>是全国运营率最低的省市， 分别为
+          <a *ngFor="let item of e4_5_6_Service.avgAttendanceService.bottomArr;let i = index;">
+            <span class='number-blue'>{{item.value}}</span>%{{i == e4_5_6_Service.avgAttendanceService.bottomArr.length - 1 ? "":"、"}}
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+
+  <div class="row">
+    <app-footable>
+      <thead>
+        <tr>
+          <th class='phone-thumbnail' rowspan="2"></th>
+          <th> id </th>
+          <th> 日期 </th>
+          <th> 已开发票 </th>
+          <th> 操作 </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of orderList; trackBy: trackByOrderList;">
+          <td>{{item.id}}</td>
+          <td>{{item.createAt}}</td>
+          <td>{{item.orderLabel}}</td>
+          <td class="data-table-opts">
+            <a class='find-more fa fa-angle-right'>开发票</a>
+            <a class='find-more fa fa-angle-right'>查看详情</a>
+          </td>
+        </tr>
+      </tbody>
+    </app-footable>
+  </div>

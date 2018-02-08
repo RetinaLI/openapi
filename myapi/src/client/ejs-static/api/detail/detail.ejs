@@ -1,0 +1,72 @@
+<div class='container'>
+  <div class='main-content row'>
+    <div class='wrapper'>
+      <% if(pageInfo.api) { %>
+        <div class='row align-items-center'>
+          <h3 class='mr-auto'>
+            <%=pageInfo.api.name%>
+          </h3>
+          <div class=''>
+            <button role='button' class='btn btn-white'>
+              <%=pageInfo.api.price%>
+            </button>
+            <!-- <span></span> -->
+            <button role='button' class='btn btn-inverse'>
+              <i class='fa fa-shopping-cart'></i>
+            </button>
+            <button role='button' class='btn btn-info'>Buy Now</button>
+          </div>
+        </div>
+        <hr class='row' />
+        <div class='row flex-column'>
+          <h4>描述：</h4>
+          <p>
+            <%=pageInfo.api.desc%>
+          </p>
+        </div>
+        <div class="row table-responsive">
+          <h4>参数列表：</h4>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>名称</th>
+                <th>类型</th>
+                <th>备注</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>vin</td>
+                <td>String</td>
+                <td>车辆vin</td>
+              </tr>
+              <tr>
+                <td>token</td>
+                <td>String</td>
+                <td>授权token</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="row table-responsive">
+          <h4>返回结果：</h4>
+          <pre>
+    {
+      code: 200,
+      msg: "success",
+      data: {
+        id: 1,
+        vin: "SDFSDJFHJDSFH2323",
+        city: "北京市",
+        longitude: 211.3447474,
+        latitude: 22.3434344
+      }
+    }
+          </pre>
+        </div>
+        <% } else { %>
+          <p class='error'>无效的接口信息！</p>
+          <% } %>
+    </div>
+  </div>
+</div>

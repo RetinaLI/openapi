@@ -1,0 +1,136 @@
+{
+    "data": "",
+    "info": "",
+    "list": [
+        {
+            "province": "广西壮族自治区",
+            "velocity_avg": 45.8
+        },
+        {
+            "province": "甘肃省",
+            "velocity_avg": 44.6
+        },
+        {
+            "province": "吉林省",
+            "velocity_avg": 43.7
+        },
+        {
+            "province": "重庆市",
+            "velocity_avg": 43.1
+        },
+        {
+            "province": "云南省",
+            "velocity_avg": 43.0
+        },
+        {
+            "province": "湖南省",
+            "velocity_avg": 42.9
+        },
+        {
+            "province": "四川省",
+            "velocity_avg": 42.8
+        },
+        {
+            "province": "陕西省",
+            "velocity_avg": 42.4
+        },
+        {
+            "province": "宁夏回族自治区",
+            "velocity_avg": 42.2
+        },
+        {
+            "province": "上海市",
+            "velocity_avg": 42.0
+        },
+        {
+            "province": "青海省",
+            "velocity_avg": 42.0
+        },
+        {
+            "province": "黑龙江省",
+            "velocity_avg": 41.9
+        },
+        {
+            "province": "浙江省",
+            "velocity_avg": 41.8
+        },
+        {
+            "province": "天津市",
+            "velocity_avg": 41.6
+        },
+        {
+            "province": "辽宁省",
+            "velocity_avg": 41.1
+        },
+        {
+            "province": "福建省",
+            "velocity_avg": 40.7
+        },
+        {
+            "province": "湖北省",
+            "velocity_avg": 39.7
+        },
+        {
+            "province": "广东省",
+            "velocity_avg": 39.6
+        },
+        {
+            "province": "北京市",
+            "velocity_avg": 39.5
+        },
+        {
+            "province": "内蒙古自治区",
+            "velocity_avg": 39.3
+        },
+        {
+            "province": "山东省",
+            "velocity_avg": 38.6
+        },
+        {
+            "province": "新疆维吾尔自治区",
+            "velocity_avg": 38.1
+        },
+        {
+            "province": "河南省",
+            "velocity_avg": 38.1
+        },
+        {
+            "province": "江苏省",
+            "velocity_avg": 37.7
+        },
+        {
+            "province": "西藏自治区",
+            "velocity_avg": 37.4
+        },
+        {
+            "province": "安徽省",
+            "velocity_avg": 36.5
+        },
+        {
+            "province": "山西省",
+            "velocity_avg": 36.3
+        },
+        {
+            "province": "江西省",
+            "velocity_avg": 36.2
+        },
+        {
+            "province": "贵州省",
+            "velocity_avg": 35.6
+        },
+        {
+            "province": "河北省",
+            "velocity_avg": 34.6
+        },
+        {
+            "province": "海南省",
+            "velocity_avg": 31.6
+        }
+    ],
+    "map": "",
+    "sectionMap": "",
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

@@ -1,0 +1,53 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "map": {},
+    "mapList": [
+        {
+            "saleMonth": "2017-01",
+            "salesCount": 2047
+        },
+        {
+            "saleMonth": "2017-02",
+            "salesCount": 3976
+        },
+        {
+            "saleMonth": "2017-03",
+            "salesCount": 5981
+        },
+        {
+            "saleMonth": "2017-04",
+            "salesCount": 5989
+        },
+        {
+            "saleMonth": "2017-05",
+            "salesCount": 5779
+        },
+        {
+            "saleMonth": "2017-06",
+            "salesCount": 6735
+        },
+        {
+            "saleMonth": "2017-07",
+            "salesCount": 6307
+        },
+        {
+            "saleMonth": "2017-08",
+            "salesCount": 9274
+        },
+        {
+            "saleMonth": "2017-09",
+            "salesCount": 7842
+        },
+        {
+            "saleMonth": "2017-10",
+            "salesCount": 291
+        }
+    ],
+    "resultMap": {},
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

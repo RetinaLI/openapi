@@ -1,0 +1,8 @@
+<div class = 'summary-board clearfix '
+  [ngClass] = "{'waves-effect waves-block': enableEffect}"
+  [style.background-color]="bgColor">
+  <label class = 'clearfix'>
+    <span [style.color] = "label_color" class = 'icon {{icon}}'>{{label}}</span>
+  </label>
+  <p class = 'value label-value'>{{value}}<span class = 'unit' *ngIf = "unit">{{unit}}</span></p>
+</div>

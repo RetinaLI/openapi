@@ -1,0 +1,53 @@
+{
+    "data": {
+        "brandName": "欧曼",
+        "buname": "北京福田戴姆勒汽车有限公司",
+        "carInfo": {},
+        "clientName": "无",
+        "clientPhone": "",
+        "company": {},
+        "created": "2017-08-31 16:50:12",
+        "hourCost": 53.0,
+        "id": 72359,
+        "inFenceTime": "",
+        "isInner": 1,
+        "isReal": "0",
+        "isRealNote": "车辆未进站",
+        "maintainType": "8",
+        "materialsExpenses": 114.0,
+        "mileage": 718,
+        "modified": "2017-09-01 03:50:03",
+        "modifiedTime": "17\/9\/1",
+        "new": false,
+        "otherCost": 0.0,
+        "outFenceTime": "",
+        "outServiceCost": 0.0,
+        "partsCost": 0.0,
+        "plateNumber": "",
+        "productLineName": "6系公路车",
+        "repair": "整车",
+        "repairCode": "REPFT000001544201708310017",
+        "returnTime": "2017-08-31 16:50:10",
+        "servicer": {
+            "fence": {
+                "type": 1,
+                "value": ";3000"
+            }
+        },
+        "stationCode": "FT000001544",
+        "stationName": "吉林省圣憬达汽车销售服务有限公司",
+        "status": 7,
+        "sysCode": "2450",
+        "totalCost": 166.0,
+        "vehicleId": "",
+        "vin": "LRDS6PEB0HR017629"
+    },
+    "info": "",
+    "list": "",
+    "map": {},
+    "msg": "服务站经纬度配置错误",
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

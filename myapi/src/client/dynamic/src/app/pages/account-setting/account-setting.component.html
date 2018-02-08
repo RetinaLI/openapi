@@ -1,0 +1,16 @@
+<div>
+  <div class='row'>
+    <div class='form-group col-12'>
+      <input class="form-control" type="password" required="" [(ngModel)]="oldPassword" placeholder="旧密码">
+    </div>
+    <div class='form-group col-12'>
+      <input class="form-control" type="password" required="" [(ngModel)]="newPassword" placeholder="新密码">
+    </div>
+    <div class='form-group col-12'>
+      <input class="form-control" type="password" required="" [(ngModel)]="againPassword" placeholder="重复新密码">
+    </div>
+    <div class='form-group col-12'>
+      <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit" (click)="changePassword()">修改密码</button>
+    </div>
+  </div>
+</div>

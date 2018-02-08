@@ -1,0 +1,44 @@
+<div class='top-nav'>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-nav">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item  <%=pageInfo.url.pathname == " " || pageInfo.url.pathname == "/ " ? "active " : " "%>">
+          <a class="nav-link" href="/">产品介绍
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item <%=/^\/api\/.*$/.test(pageInfo.url.pathname) ? " active " : " "%>">
+          <a class="nav-link" href="/api/data/list">接口列表</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 search" action="/api/search/list">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name='key'>
+            <a href="" class="active">
+              <i class="fa fa-search"></i>
+            </a>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class='fa fa-user-o'></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+            <a class="dropdown-item" href="/profile">个人中心</a>
+            <a class="dropdown-item" href="https://v2.bootcss.com/">退出</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</div>

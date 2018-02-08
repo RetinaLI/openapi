@@ -1,0 +1,150 @@
+{
+    "data": {
+        "address": "黑龙江省哈尔滨市南岗区哈尔滨大街",
+        "area": "黑龙江",
+        "arriveDate": "2017-09-17 14:37:52",
+        "arrivedRemark": "因地理位置标注不准确，造成无法触发自动到达",
+        "bandle": 2,
+        "bandleBeginTime": "2017-09-11 17:49:56",
+        "bandleEndTime": "2017-09-13 18:56:04",
+        "beginDate": "2017-09-11 18:01:16",
+        "boxBeginDate": "",
+        "boxEndDate": "",
+        "boxStatus": 0,
+        "bto": "",
+        "carTypeName": "",
+        "councils": {
+            "id": 20016,
+            "name": "吉林省华航实业集团有限公司",
+            "organization": {
+                "id": 20004,
+                "name": "怀柔重卡销售物流部"
+            }
+        },
+        "created": "2017-09-11 14:38:29",
+        "customer": {
+            "id": 4470,
+            "name": "黑龙江吉成汽车销售有限公司",
+            "type": 2
+        },
+        "delayStatus": "",
+        "device": {
+            "device": {
+                "accOn": true,
+                "carInfo": {
+                    "framenum": ""
+                },
+                "did": "863092014486305",
+                "location": {
+                    "acc": 1,
+                    "deviceStatusSet": [
+                        "ACC_ON"
+                    ],
+                    "latitude": "45.712981084795",
+                    "longitude": "126.58430824529",
+                    "sendTime": "2017-09-13 17:43:06",
+                    "status": ";1001;",
+                    "stop": 1
+                },
+                "sn": "Z3A114C301532"
+            },
+            "deviceId": "",
+            "driverName": "刘伟",
+            "driverPhone": "13804369468",
+            "id": 22345,
+            "latitude": "",
+            "location": "",
+            "locationtime": "",
+            "longitude": ""
+        },
+        "distribution": {
+            "id": 601,
+            "name": "牵引车销售部"
+        },
+        "driverCard": "",
+        "driverName": "刘伟",
+        "driverPhone": "13804369468",
+        "eir": "8001039755",
+        "endDate": "2017-09-13 18:26:04",
+        "endPlace": {
+            "address": "哈尔滨市利民开发区哈肇公路西、滨兰公司南",
+            "id": 8176,
+            "latitude": "45.81012890455",
+            "longitude": "126.55358758357",
+            "name": "哈尔滨市利民开发区哈肇公路西、滨兰公司南",
+            "radius": 29981
+        },
+        "endStatus": "",
+        "endType": "",
+        "estimateBeginDate": "2017-09-14 00:00:00",
+        "estimateBindBeginDate": "2017-09-14 00:00:00",
+        "fixedType": 1,
+        "id": 2331841,
+        "isHeadPln": "",
+        "latitude": "",
+        "lineDesc": "北京市北京市怀柔区-黑龙江省七台河市桃山区",
+        "longitude": "",
+        "manualEndReason": {
+            "id": 7
+        },
+        "manualStartReason": {
+            "id": ""
+        },
+        "mergeCustomer": {
+            "id": "",
+            "name": ""
+        },
+        "orderNum": "1001310645",
+        "orgId": "20004",
+        "orgName": "怀柔重卡销售物流部",
+        "partsTransType": "",
+        "paymentDate": "",
+        "phoneOption": {
+            "id": ""
+        },
+        "placeChange": "",
+        "pln": "",
+        "pulloutRemark": "",
+        "receiver": "",
+        "receiverPhone": "",
+        "recommendDriverName": "",
+        "recommendDriverPhone": "",
+        "remark": "",
+        "responseTime": "",
+        "sendDate": "2017-09-11 14:37:52",
+        "startPlace": {
+            "address": "北京市北京市怀柔区",
+            "id": 3187,
+            "latitude": "40.277608568485",
+            "longitude": "116.65019513647",
+            "name": "北京市北京市怀柔区",
+            "radius": 3121
+        },
+        "startStatus": "",
+        "status": 4,
+        "subBrand": {
+            "brandSelling": {
+                "id": 21,
+                "name": "欧曼"
+            },
+            "id": 104,
+            "name": "神舟"
+        },
+        "tmsOrderNum": "YDZKWL17091100523",
+        "trantype": 1,
+        "useType": "",
+        "vehicleLength": "",
+        "vin": "LRDS6PEB7HT019218"
+    },
+    "detailList": "",
+    "info": "",
+    "list": "",
+    "locations": "",
+    "map": "",
+    "mapList": "",
+    "orderMap": {},
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "url": ""
+}

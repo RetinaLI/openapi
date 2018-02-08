@@ -1,0 +1,113 @@
+{
+    "data": "",
+    "info": "",
+    "list": "",
+    "success": true,
+    "texts": "",
+    "totalCount": 0,
+    "treeNodes": [
+        {
+            "isParent": false,
+            "id": 1262162,
+            "name": "轻型运输型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262165,
+            "name": "瑞沃搅拌车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262258,
+            "name": "时代骁运",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262179,
+            "name": "时代随车吊",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262159,
+            "name": "中卡",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262163,
+            "name": "重型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262164,
+            "name": "瑞沃120中卡",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262160,
+            "name": "中型运输型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262161,
+            "name": "轻型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262166,
+            "name": "中型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262167,
+            "name": "重型运输型工程车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262168,
+            "name": "时代搅拌车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262173,
+            "name": "轻型工程车（多小）",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262174,
+            "name": "瑞沃其它",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262176,
+            "name": "时代汽车起重机",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262200,
+            "name": "瑞沃罐式运输车",
+            "parentId": ""
+        },
+        {
+            "isParent": false,
+            "id": 1262172,
+            "name": "瑞沃随车吊",
+            "parentId": ""
+        }
+    ],
+    "url": ""
+}

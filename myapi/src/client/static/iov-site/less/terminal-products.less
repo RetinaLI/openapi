@@ -1,0 +1,109 @@
+@import "../../../assets/less/base.less";
+@import "../less/common.less";
+.container{
+  padding-bottom: 1.8rem;
+}
+div.main{
+  .section{
+    &.s1{
+      position: relative;
+      img.bg{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+      }
+      div.content {
+        position: absolute;
+        top: .63rem;
+        z-index: 2;
+        display: flex;
+        padding: 0 .5rem;
+        width: 100%;
+        div{
+          flex: 1;
+
+          img{
+            height: 100%;
+          }
+
+          &.left{
+            width: 3.35rem;
+            height: 1.04rem;
+            flex: none;
+          }
+
+          &.right{
+            text-align: right;
+            height: 1.04rem;
+          }
+        }
+      }
+    }
+
+    &.s2{
+      padding: 0 .4rem;
+      z-index: 2;
+      margin-top: -1.35rem;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+    &.s3, &.s4, &.s5{
+      padding: 0 .4rem;
+      margin-top: 1.3rem;
+      div.h1{
+        position: relative;
+        margin-bottom: .7rem;
+        img.car{
+          position: absolute;
+          height: 100%;
+          top: 0;
+          left: -1.4rem;
+        }
+        img.title{
+          height: 1.87rem;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      &>img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+    &.s3{
+      &>img{
+        width: 6.7rem;
+        height: 6.69rem;
+      }
+    }
+
+    &.s4{
+      div.h1{
+        img.car{
+          left: auto;
+          right: -1.9rem;
+        }
+      }
+      &>img{
+        width: 6.7rem;
+        height: 6.6903rem;
+      }
+    }
+
+    &.s5{
+      div.h1{
+        img.car{
+          left: -2.1rem;
+        }
+      }
+      &>img{
+        width: 6.7rem;
+        height: 3.4078rem;
+      }
+    }
+  }
+}

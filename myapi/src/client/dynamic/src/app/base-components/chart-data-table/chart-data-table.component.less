@@ -1,0 +1,112 @@
+
+@import "../../../../../assets/themes/variables";
+:host {
+  width:100%;
+}
+.data-table {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &>div{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  div.table-body{
+    flex: 1;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  table{
+    width: 90%;
+    margin: 0 auto;
+  }
+  ::ng-deep{
+    th{
+      text-align: center;
+      background-color: @main-theme-color;
+      padding: 8px 0;
+      color: white;
+    }
+
+    td{
+      padding: 8px 0;
+      text-align: center;
+
+      &.align-left{
+        text-align: left;
+      }
+    }
+  }
+
+  &.ranking{
+    table.body{
+      ::ng-deep{
+        tr{
+          td{
+            color: #999;
+          }
+          td:nth-child(2){
+            color: #555;
+          }
+
+        }
+        tr:nth-child(1), tr:nth-child(2), tr:nth-child(3){
+          td{
+            color: #669cff;
+          }
+        }
+      }
+    }
+  }
+
+  &.pie-chart{
+    table.body{
+      width: 60%;
+      ::ng-deep{
+        tr{
+          td{
+            color: #999;
+          }
+          td:nth-child(1){
+            color: #555;
+          }
+
+        }
+      }
+    }
+
+  }
+}
+
+.table-body{
+  max-height: 100%;
+  position: relative;
+
+  .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.5px 0.866px 10px 0px rgba(0, 0, 0, 0.4);
+    opacity: .2;
+  }
+  div.table-content{
+    width:100%;
+    height: 90%;
+    overflow: auto;
+    .absolute-vertical-middle();
+  }
+  .bottom-modal{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: 0px -20px 0px 0px rgba(255, 255, 255, 0.6);
+  }
+}
